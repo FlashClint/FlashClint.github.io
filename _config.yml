@@ -23,8 +23,8 @@ navbar-links:
   About Me: "aboutme"
   Research: "research"
   Resources:
-    Protocols: "" # "/resources/prototols"
-    Learning Notes: "" #"/resources/learning_notes"
+    #Protocols: "" # "/resources/prototols"
+    #Learning Notes: "" #"/resources/learning_notes"
   Collections: "collections"
 
 ################
