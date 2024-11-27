@@ -10,7 +10,9 @@
 ############################
 
 # Name of website
-title: Clint's website
+title: Clint Chen
+
+description: personal website
 
 # Your name to show in the footer
 author: Clint Chen
@@ -20,11 +22,8 @@ author: Clint Chen
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
   Research: "research"
-  Resources:
-    #Protocols: "" # "/resources/prototols"
-    #Learning Notes: "" #"/resources/learning_notes"
+  Blogs: # "/blogs/learning_notes"
   Collections: "collections"
 
 ################
@@ -52,37 +51,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "flashclint@gmail.com"
-#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#  facebook: deanattali
   github: flashclint
-#  twitter: daattali
-#  patreon: DeanAttali
-#  youtube: "@daattali"
-#  whatsapp: 15551212
-#  medium: yourname
-#  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
   bluesky: rjchen3567.bsky.social
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code"
-#  kaggle: yourname
-#  hackerrank: yourname
-#  gitlab: yourname
-#  itchio: yourname
-#  untappd: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
@@ -94,9 +66,9 @@ social-network-links:
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
@@ -259,11 +231,12 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: '+0800'
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+paginate_path: "/blog/page:num/"
 
 kramdown:
   input: GFM
